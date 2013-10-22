@@ -13,11 +13,19 @@
 @end
 
 @implementation cdcViewController
+- (IBAction)logSwitchStatus:(id)sender
+
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+
+    [_mySwitch setOn: NO];
+    
+    - (IBAction)logSwitchStatus:(id)sender {
+        NSString (
+    }
 }
 
 - (void)didReceiveMemoryWarning

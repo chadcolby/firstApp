@@ -10,4 +10,8 @@
 
 @interface cdcViewController : UIViewController
 
+@property (nonatomic, weak) IBOutlet UISwitch *theSwitch;
+
+- (IBAction)logSwitchStatus:(id)sender;
+
 @end
